@@ -8,5 +8,5 @@ function destructivelyPrependKitten(name) {
   return name;
 }
 function destructivelyRemoveLastKitten() {
-  return kittens.pop();
+  return kittens.splice(0,1);
 }
